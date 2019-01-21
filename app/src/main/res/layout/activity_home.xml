@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:gravity="center"
+    android:background="#ffff"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="168dp"
+        android:maxWidth="140dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/user"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="openUserManager"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_library_books_black_24dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/books"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="openBooksManager"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_library_books_black_24dp"
+        android:padding="8dp"
+        android:text="@string/invoice"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="openInvoiceManager"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_library_books_black_24dp"
+        android:padding="8dp"
+        android:text="@string/statistics"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="openStatistics"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_library_books_black_24dp"
+        android:padding="8dp"
+        android:text="@string/about"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="openAbout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient"
+        android:drawableStart="@drawable/ic_library_books_black_24dp"
+        android:padding="8dp"
+        android:text="@string/quit"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="exitApplication"/>
+</LinearLayout>
